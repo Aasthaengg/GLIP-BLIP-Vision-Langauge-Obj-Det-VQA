@@ -4,8 +4,6 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-os.system("python setup.py build develop --user")
-
 from maskrcnn_benchmark.config import cfg
 from maskrcnn_benchmark.engine.predictor_glip import GLIPDemo
 import vqa
