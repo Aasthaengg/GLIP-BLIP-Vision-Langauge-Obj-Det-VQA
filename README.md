@@ -1,5 +1,5 @@
 # Vision-Language Object Detection and Visual Question Answering
-This repository includes Microsoft's GLIP and Salesforce's BLIP ensembled demo for detecting objects and Visual Question Answering based on text prompts.  
+This repository includes Microsoft's GLIP and Salesforce's BLIP ensembled <a href="https://gradio.app/">Gradio</a> demo for detecting objects and Visual Question Answering based on text prompts.  
 
 <br />
 
