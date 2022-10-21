@@ -1,5 +1,16 @@
 # Vision-Language Object Detection and Visual Question Answering
 This repository includes Microsoft's GLIP and Salesforce's BLIP ensembled demo for detecting objects and Visual Question Answering based on text prompts.  
+<br />
+
+
+## Updates 
+Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces/Pinwheel/GLIP-BLIP-Object-Detection-VQA)
+
+<p align="left">
+    <a href="#">
+        <img src="https://img.shields.io/badge/🤗 Hugging Face-Demo-FFFF00?style=flat-square&logo=huggingface&logoColor=white">
+    </a>
+</p>
 
 <br />
 
@@ -13,6 +24,7 @@ This repository includes Microsoft's GLIP and Salesforce's BLIP ensembled demo f
 ## About BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation - 
 
 > A new model architecture that enables a wider range of downstream tasks than existing methods, and a new dataset bootstrapping method for learning from noisy web data.
+
 
 <br />
 
@@ -62,10 +74,16 @@ python3 app_local.py
 
 > After loading the checkpoints, you must click on the prompted local URL to run inference. 
 
+Video I/O
+[![FPS](resources/demo.gif)]()
+
+Image I/O
 [![FPS](resources/gradio.png)]()
+
 ## Future Work
 
 - [x] Frame based Visual Question Answering
+- [x] Video based Visual Question Answering
 - [ ] Each object based Visual Question Answering
 
 
