@@ -75,9 +75,11 @@ python3 app_local.py
 > After loading the checkpoints, you must click on the prompted local URL to run inference. 
 
 Video I/O
+
 [![FPS](resources/demo.gif)]()
 
 Image I/O
+
 [![FPS](resources/gradio.png)]()
 
 ## Future Work
